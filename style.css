@@ -40,15 +40,11 @@ address{
 .navbar-dark {
     background-color: #512DA8;
 }
-/* .form-title{ */
-    /* margin: 5px; */
-    /* padding: 0; */
-/* } */
-/* .form-title h3{
-    background-color: #fdc02f;
-    color: white;
-    padding: 10px;
-    
-} */
 
+.tab-content {
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+}
 
