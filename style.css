@@ -34,7 +34,21 @@ address{
     color:#0f0f0f;
 }
 
-
+.input-date-time input{
+    padding: 5px;
+}
 .navbar-dark {
     background-color: #512DA8;
 }
+/* .form-title{ */
+    /* margin: 5px; */
+    /* padding: 0; */
+/* } */
+/* .form-title h3{
+    background-color: #fdc02f;
+    color: white;
+    padding: 10px;
+    
+} */
+
+
