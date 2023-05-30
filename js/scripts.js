@@ -15,3 +15,6 @@ $("#carouselButton").click(function () {
         $("#carouselButton").children("span").addClass('fa-pause');
     }
 });
+$('#myModal').on('shown.bs.modal', function () {
+    $('#myInput').trigger('focus')
+  })
