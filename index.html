@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./css/styles.css">
     <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
 </head>
@@ -98,9 +98,7 @@
                     <a role="button" class="btn btn-block nav-link btn-warning" data-toggle="modal" data-html="true"
                         title="Or Call us at  <br><strong>+852 12345678</strong>" data-placement="bottom"
                         data-target="#reserveform">Reserve Table</a>
-                    <!-- href="#reserveform" -->
                 </div>
-
             </div>
         </div>
     </header>
@@ -249,12 +247,12 @@
                                 <div class="form-group row">
                                     <label for="numberOfGuests" class="col-md-3 col-form-label text-dark">Number of Guests</label>
                                     <div class="col-md-9">
-                                        <input type="radio"> 1
-                                        <input type="radio"> 2
-                                        <input type="radio"> 3
-                                        <input type="radio"> 4
-                                        <input type="radio"> 5
-                                        <input type="radio"> 6
+                                        <input name="guests" value="1" type="radio"> 1
+                                        <input name="guests" value="2" type="radio"> 2
+                                        <input name="guests" value="3" type="radio"> 3
+                                        <input name="guests" value="4" type="radio"> 4
+                                        <input name="guests" value="5" type="radio"> 5
+                                        <input name="guests" value="6" type="radio"> 6
                                     </div>
                                 </div>
                             </form>
@@ -291,8 +289,6 @@
 
                         </div>
                     </div>
-
-
                 </div>
             </div>
 
